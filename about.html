@@ -7,7 +7,18 @@
     <title>About Us</title>
 
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html body {
+            padding-top: 25px;
+        }
 
+        .pcenter {
+            padding-left: 15%;
+            padding-right: 15%;
+            font-size: 20pt;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -40,70 +51,96 @@
     </header>
 
     <main>
-        <div class="row">
-            <section>
-                <h1 style="text-align: center ;
+        <div class="container">
+
+
+            <div class="row">
+                <section>
+                    <h1 style="text-align: center ;
            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
            margin-top: 50px; font-size: 75px ;">About Us</h1>
-            </section>
+                </section>
 
-            <div class="album py-5 bg-body-tertiary">
-                <div class="container">
+                <div class="container row pcenter">
+                    <p>
+                        This restaurant was founded in 2024 in Ames, Iowa. We started off by serving traditional
+                        [whatever
+                        we decide to serve], and the local community embraced us enough that we expanded to new
+                        locations at
+                        x, y, and z. We are definitely kept busy, and we are happy to serve our communities.</p>
+                    <P>This
+                        website was created as the midterm project for COM S 319 at Iowa State Unviersity in the spring
+                        of
+                        2024. Our goal was to design a nice looking website with easy navigation and some user
+                        interactivity, which would involve all the skills we've learned in HTML, CSS, and Javascript
+                        over
+                        the first half of the semester. Additionally, Bootstrap templates were used to help accelerate
+                        the
+                        development.
+                    </P>
+                </div>
 
-                    <div class="row row-cols-1 row-cols-sm-2 g-3">
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="./assets/about images/andrew.JPG" alt="Your Image"
-                                    style="margin: 20px; object-fit: cover; border-radius: 5px;">
-                                <div class="card-body">
-                                    <ul>
-                                        <li>
-                                            <p><strong>Course name:</strong> Com S 319</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Student name:</strong> Andrew Butler</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Email:</strong> ajbutler@iastate.edu</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Date:</strong> 6-2-2024</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Professor name:</strong> Ali Jannesari</p>
-                                        </li>
-                                    </ul>
+                <section>
+                    <h1 style="text-align: center ;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+           margin-top: 50px; font-size: 75px ;">Our Team</h1>
+                </section>
+                <div class="album py-5">
+                    <div class="container">
+
+                        <div class="row row-cols-1 row-cols-sm-2 g-3">
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="./assets/about images/andrew.JPG" alt="Your Image"
+                                        style="margin: 20px; object-fit: cover; border-radius: 5px;">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <p><strong>Student name:</strong> Andrew Butler</p>
+                                            </li>
+                                            <li>
+                                                <p><strong>Email:</strong> ajbutler@iastate.edu</p>
+                                            </li>
+                                            <li>
+                                                <p><strong>Date:</strong> 9-3-2024</p>
+                                            </li>
+                                            <li>
+                                                <p><strong>Professor name:</strong> Ali Jannesari</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="./assets/about images/nat.jpg" alt="Your Image"
-                                    style="margin: 20px; object-fit: cover; border-radius: 5px;">
-                                <div class="card-body">
-                                    <ul>
-                                        <li>
-                                            <p><strong>Course name:</strong> Com S 319</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Student name:</strong> Nhat Bui</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Email:</strong> nbui@iastate.edu</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Date:</strong> 6-2-2024</p>
-                                        </li>
-                                        <li>
-                                            <p><strong>Professor name:</strong> Ali Jannesari</p>
-                                        </li>
-                                    </ul>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="./assets/about images/nat.jpg" alt="Your Image"
+                                        style="margin: 20px; object-fit: cover; border-radius: 5px;">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <p><strong>Student name:</strong> Nhat Bui</p>
+                                            </li>
+                                            <li>
+                                                <p><strong>Email:</strong> nbui@iastate.edu</p>
+                                            </li>
+                                            <li>
+                                                <p><strong>Date:</strong> 9-3-2024</p>
+                                            </li>
+                                            <li>
+                                                <p><strong>Professor name:</strong> Ali Jannesari</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
+
+                <footer class="container">
+                    <p class="float-end"><a href="#">Back to top</a></p>
+                </footer>
             </div>
     </main>
 </body>
