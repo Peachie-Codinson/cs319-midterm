@@ -13,9 +13,21 @@
         }
 
         .pcenter {
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 5%;
+            padding-right: 5%;
             font-size: 20pt;
+        }
+
+        .caption {
+            font-size: 10pt;
+            color: gray;
+        }
+        .heading {
+            text-align: center;
+        }
+        .featurette {
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
     </style>
 </head>
@@ -50,8 +62,6 @@
 
     <main>
         <div class="container">
-
-
             <div class="row">
                 <section>
                     <h1 style="text-align: center ;
@@ -60,9 +70,67 @@
                 </section>
             </div>
 
+            <div class="row featurette pcenter">
+                <div class="col-md-9">
+                    <h2 class="heading">Ames</h2>
+                    <p> Our original location is at 1234 Smith st. Ames, Iowa. While it may be small, it launched our
+                        business into what it is today. The Ames community is welcoming, and the location is styled like
+                        a typical Japanese restaurant. <br></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="./assets/images/location1.jpg" alt="Our first location in Ames, Iowa"
+                        style="max-width: 100%">
+                    <p class="caption">1234 Smith st. Ames, Iowa</p>
+                </div>
+            </div>
+
+            <div class="row featurette pcenter">
+                <div class="col-md-3">
+                    <img src="./assets/images/location2.jpg" alt="Our first location in Ames, Iowa"
+                        style="max-width: 100%">
+                    <p class="caption">4321 S. Grand Des Moines, Iowa</p>
+                </div>
+                <div class="col-md-9">
+                    <h2 class="heading">Des Moines</h2>
+                    <p> For the second location, we opened up a restaurant at 4321 S. Grand in Des Moines, Iowa. It
+                        offers the same great style and food as our first location, just now it's in the heart of Des
+                        Moines! <br> Stop in and see what everyone is talking about!</p>
+                </div>
+            </div>
+
+            <div class="row featurette pcenter">
+                <div class="col-md-8">
+                    <h2 class="heading">Waukee</h2>
+                    <p> Our third location was opened after restaurant in Des Moines became flooded- so we once again
+                        needed to expand. So, we decided to join the growing city of Waukee! Once again, this location
+                        has some of the same styling and great food that you've come to expect from us. Visit us at 456
+                        Hickman road Waukee, Iowa!</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/images/location3.jpg" alt="Our first location in Ames, Iowa"
+                        style="max-width: 100%">
+                    <p class="caption">456 Hickman road Waukee, Iowa</p>
+                </div>
+            </div>
+
+            <div class="row featurette pcenter">
+                <div class="col-md-4">
+                    <img src="./assets/images/location4.jpg" alt="Our first location in Ames, Iowa"
+                        style="max-width: 100%">
+                    <p class="caption">789 Main St. Iowa City, Iowa</p>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="heading">Iowa City</h2>
+                    <p> At our newest location, we combined the traditional restaurant style with the bar scene to
+                        create something unique and special. And where else to put a bar-themed restaurant than Iowa
+                        City? Located at 789 Main st., the bar location offers a new selection of beverages and
+                        appetizers perfect for hanging out with friends. Visit now!</p>
+                </div>
+            </div>
+
             <footer class="container">
                 <p class="float-end"><a href="#">Back to top</a></p>
-              </footer>
+            </footer>
         </div>
     </main>
 </body>
