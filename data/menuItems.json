@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "title": "Miso Ramen",
+      "description": "Miso gives ramen broth a strong, pleasantly sharp umami flavor. Topped with seaweed and vegetables.",
+      "url": "https://cdn.pixabay.com/photo/2019/11/23/15/30/ramen-4647411_1280.jpg",
+      "tags": ["Ramen", "Miso", "Umami", "Seaweed", "Vegetables"]
+    },
+    {
+      "id": 2,
+      "title": "Shio Ramen",
+      "description": "Made from a chicken broth base. It's a lighter-bodied, lighter-flavored ramen.",
+      "url": "https://cdn.pixabay.com/photo/2015/05/13/16/16/noodle-soup-765706_1280.jpg",
+      "tags": ["Ramen", "Chicken", "Broth", "Light", "Flavor"]
+    },
+    {
+      "id": 3,
+      "title": "Sapporo Ramen",
+      "description": "Sapporo's ramen is thick and hearty. Comes with thicker noodles and topped with Hokkaido's specialties.",
+      "url": "https://cdn.pixabay.com/photo/2019/11/23/15/26/ramen-4647408_1280.jpg",
+      "tags": ["Ramen", "Sapporo", "Thick", "Hearty", "Noodles"]
+    },
+    {
+      "id": 4,
+      "title": "Tonkotsu Ramen",
+      "description": "Features a rich broth made from pork bones. Topped with slices of pork chashu and assorted veggies.",
+      "url": "https://cdn.pixabay.com/photo/2021/09/27/02/36/ramen-6659278_1280.jpg",
+      "tags": ["Ramen", "Tonkotsu", "Pork", "Broth", "Chashu"]
+    },
+    {
+      "id": 5,
+      "title": "Tonkatsu Pork Bento",
+      "description": "Crispy breaded pork cutlet served with tangy tonkatsu sauce, rice, and assorted sides.",
+      "url": "https://cdn.pixabay.com/photo/2016/09/23/23/23/restaurant-1690696_1280.jpg",
+      "tags": ["Bento", "Tonkatsu", "Pork", "Crispy", "Sauce"]
+    },
+    {
+      "id": 6,
+      "title": "Teppanyaki Steak Bento",
+      "description": "Succulent slices of grilled steak, served with vegetables, rice, and a savory dipping sauce.",
+      "url": "https://cdn.pixabay.com/photo/2023/04/27/03/35/beef-7953648_1280.jpg",
+      "tags": ["Bento", "Teppanyaki", "Steak", "Grilled", "Sauce"]
+    },
+    {
+      "id": 7,
+      "title": "Teriyaki Chicken Bento",
+      "description": "Grilled chicken glazed in a sweet and savory teriyaki sauce, accompanied by rice and traditional Japanese sides.",
+      "url": "https://cdn.pixabay.com/photo/2018/10/22/12/30/teriyaki-chicken-3765240_1280.jpg",
+      "tags": ["Bento", "Teriyaki", "Chicken", "Grilled", "Sauce"]
+    },
+    {
+      "id": 8,
+      "title": "Eel Bento",
+      "description": "Tender grilled eel served with a rich unagi sauce, rice, and pickled vegetables.",
+      "url": "https://cdn.pixabay.com/photo/2023/04/27/04/08/unagi-7953712_1280.jpg",
+      "tags": ["Bento", "Eel", "Unagi", "Sauce", "Pickled"]
+    },
+    {
+      "id": 9,
+      "title": "Salmon Bento",
+      "description": "Fresh, flavorful slices of grilled or teriyaki-glazed salmon, paired with rice and seasonal accompaniments.",
+      "url": "https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg",
+      "tags": ["Bento", "Salmon", "Grilled", "Teriyaki", "Seasonal"]
+    },
+    {
+      "id": 10,
+      "title": "Tamagoyaki Bento",
+      "description": "Delicate layers of Japanese rolled omelet, served with rice and an assortment of traditional side dishes.",
+      "url": "https://images.pexels.com/photos/7532859/pexels-photo-7532859.jpeg",
+      "tags": ["Bento", "Tamagoyaki", "Omelet", "Traditional", "Side dishes"]
+    },
+    {
+      "id": 11,
+      "title": "Tekka Maki",
+      "description": "A simple roll filled with raw tuna and wrapped in seaweed and sushi rice.",
+      "url": "https://www.tiger-corporation.com/wp-content/uploads/2023/02/hero-img-recipe-tekka-maki-b2c600cf500bd3fd7f0702c5fc0e0e15.jpg",
+      "tags": ["Sushi", "Maki", "Tuna", "Raw", "Seaweed"]
+    },
+    {
+      "id": 12,
+      "title": "Negitoro Roll",
+      "description": "A roll filled with minced fatty tuna (negitoro) and green onions, wrapped in seaweed and sushi rice.",
+      "url": "https://res.cloudinary.com/perkchops/image/upload/q_40,fl_lossy,w_600,/v1600267056/product/20208161737/chwlwnxcu0n3zgi4hxxu.jpg",
+      "tags": ["Sushi", "Roll", "Negitoro", "Tuna", "Green onions"]
+    },
+    {
+      "id": 13,
+      "title": "Unagi Roll",
+      "description": "A roll filled with grilled freshwater eel (unagi), cucumber, and sometimes avocado, wrapped in seaweed and sushi rice.",
+      "url": "https://takestwoeggs.com/wp-content/uploads/2023/08/Unagi-Sushi-eel-sushi-takestwoeggs-sq-480x270.jpg",
+      "tags": ["Sushi", "Roll", "Unagi", "Eel", "Cucumber"]
+    },
+    {
+      "id": 14,
+      "title": "Salmon Avocado Roll",
+      "description": "A roll filled with fresh salmon slices and creamy avocado wrapped in seaweed and sushi rice.",
+      "url": "https://www.tiger-corporation.com/wp-content/uploads/2023/02/hero-img-recipe-salmon-roll-22a44bc8993e779162aa80766bda8751.jpg",
+      "tags": ["Sushi", "Roll", "Salmon", "Avocado", "Cucumber"]
+    },
+    {
+      "id": 15,
+      "title": "Hamachi Roll",
+      "description": "A roll filled with yellowtail (hamachi) slices, typically accompanied by green onions or cucumber, wrapped in seaweed and sushi rice.",
+      "url": "https://i.ytimg.com/vi/XwcS9W-bIxs/maxresdefault.jpg",
+      "tags": ["Sushi", "Roll", "Hamachi", "Yellowtail", "Green onions"]
+    },
+    {
+      "id": 16,
+      "title": "Tamago Nigiri Roll",
+      "description": "A roll featuring sweet Japanese omelet (tamago), sliced and served on top of a small bed of sushi rice.",
+      "url": "https://www.japanesecooking101.com/wp-content/uploads/2019/04/DSC00452b-1140x640.jpg",
+      "tags": ["Sushi", "Nigiri", "Tamago", "Omelet", "Sweet"]
+    }
+  ]
+  

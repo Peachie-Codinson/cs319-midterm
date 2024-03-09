@@ -7,24 +7,54 @@
     justify-content: center;
     align-items: center;
     
-    background-color: blue; 
+    background-color: rgb(66, 66, 82); 
 }
 
-.box {
-    background-color: black;
+
+.shape-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.shape {
+    aspect-ratio: 4/3;
+    width: auto; 
+    height: 70vh; /* 80% of the viewport height */
+    max-width: 1500px; /* Maximum width of the shape */
+    max-height: 900px; /* Maximum height of the shape */
+    background-color: black; /* Red color (example) */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: crimson;
+    height: 95%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overlay {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 20px;
-    height: 20px;
-    margin-left: -10px;
-    /* -1/2 width */
-    margin-top: -10px;
-    /* -1/2 height */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* White overlay with opacity */
+    pointer-events: none; /* Allow mouse events to pass through */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    opacity: 0; /* Initially invisible */
+    transition: filter 1s;
   }
 
-.coverBox{
-    background-color: green; 
-    aspect-ratio:4/3;
-    border-radius: 10px; 
+.item:hover{
+    filter: brightness(80%)
 }
+
+
