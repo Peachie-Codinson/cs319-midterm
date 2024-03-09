@@ -4,7 +4,7 @@
 function loadMenuItems() {
     const parentContainer = document.getElementById('menuGrid');
     parentContainer.innerHTML = '';
-    fetch('/data/menuItems.json')
+    fetch('./data/menuItems.json')
         .then(response => response.json())
         .then(data => {      
             data.forEach(item => {
@@ -26,7 +26,7 @@ function loadQuery(){
     }
     else{
         console.log("input available");
-        fetch('/data/menuItems.json')
+        fetch('./data/menuItems.json')
         .then(response => response.json())
         .then(data => {            
             data.forEach(item => {
