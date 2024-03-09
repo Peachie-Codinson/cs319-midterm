@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 
-<head>
-
-    
+<head>    
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">    
     <link href="./styles/menuStyle.css" rel="stylesheet">
+    <title>Menu</title>
+    <script src="./scripts/menu.js"></script>
 
     <style>
       body{
@@ -102,6 +102,21 @@
     .bd-mode-toggle .dropdown-menu .active .bi {
       display: block !important;
     }
+
+    @keyframes fade-in {
+      from {
+          opacity: 0;
+          transform: translateY(-10px); /* Initial translateY value */
+      }
+      to {
+          opacity: 1;
+          transform: translateY(0px); /* Initial translateY value */
+      }
+    }
+
+    .fade-in {
+        animation: fade-in 0.7s ease-in-out; /* Adjust animation duration and timing function as needed */
+    }
   </style>
 
 </head>
@@ -117,10 +132,10 @@
         <div class="collapse navbar-collapse " id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./menu.html">Menu</a>
+              <a class="nav-link active" aria-current="page"  href="./menu.html">Menu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./location.html">Locations</a>
@@ -136,22 +151,29 @@
 
     <main>  
       <div class = "container" style="height:100%; min-height: 100vh ;padding: 3em 3em 3em; background-color: white;box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.5), -10px 0px 10px -5px rgba(0, 0, 0, 0.5);">
+        <div class="row">
+          <section>
+              <h1 style="text-align: center ;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 75px ;">The Menu</h1>
+          </section>
+      </div>
+      <hr>
         <div class="input-group mb-3">
           <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-default">Search Menu:</span>
           </div>
-          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-          <button class="btn btn-primary">
+          <input id="foodQuery" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+          <button id="searchFood" class="btn btn-primary" onclick="loadQuery();">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
             </svg>
           </button>
         </div>
 
-        <div id="menuGrid" class="container-fluid d-flex flex-wrap justify-content-around">
-          <script src="./scripts/menu.js">
-            
-          </script>
+        <hr>
+
+        <div id="menuGrid" class="container-fluid d-flex flex-wrap justify-content-around" style = "padding-top:10px;">
+          
         </div>
     </div>
     
